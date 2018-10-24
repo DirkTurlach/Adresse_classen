@@ -1,20 +1,7 @@
-﻿Der Buildvorgang wurde am 23.10.2018 22:47:42 gestartet.
-     1>Projekt "C:\Users\Dirk\OneDrive\Weiterbildung\Fachinformatiker\Programme\classen1S213\adressen_uebung\adressen_uebung.vcxproj" auf Knoten "2", build Ziel(e).
-     1>InitializeBuildStatus:
-         "Debug\adressen_uebung.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-       ClCompile:
-         Alle Ausgaben sind aktuell.
-       ManifestResourceCompile:
-         Alle Ausgaben sind aktuell.
-       Link:
-         Alle Ausgaben sind aktuell.
-       Manifest:
-         Alle Ausgaben sind aktuell.
-       FinalizeBuildStatus:
-         Die Datei "Debug\adressen_uebung.unsuccessfulbuild" wird gelöscht.
-         Aktualisieren des Timestamps von "Debug\adressen_uebung.lastbuildstate".
-     1>Die Erstellung des Projekts "C:\Users\Dirk\OneDrive\Weiterbildung\Fachinformatiker\Programme\classen1S213\adressen_uebung\adressen_uebung.vcxproj" ist abgeschlossen, build Ziel(e).
-
-Das Erstellen war erfolgreich.
-
-Verstrichene Zeit 00:00:00.10
+﻿  Adresse.cpp
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(2): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+  adressen_uebung.vcxproj -> C:\Users\CSL\OneDrive\Weiterbildung\Fachinformatiker\Programme\classen1S213\Debug\adressen_uebung.exe

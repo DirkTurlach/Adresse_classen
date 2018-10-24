@@ -1,16 +1,16 @@
 #include "Adresse.h"
 #include <iostream>;
 
-//Adresse::Adresse(void)
-//{
-//}
-//
-//Adresse::Adresse(char* strasse, int plz, char* ort) 
-//{
-//	setStrasse(strasse);
-//	setPlz(plz);
-//	setOrt(ort);
-//}
+Adresse::Adresse(void)
+{
+}
+
+Adresse::Adresse(char* strasse, int plz, char* ort) 
+{
+	setStrasse(strasse);
+	setPlz(plz);
+	setOrt(ort);
+}
 
 
 void Adresse::setPlz (int x)
@@ -43,4 +43,13 @@ void Adresse::setOrt (char* o)
 char* Adresse::getOrt()
 {
 	return ort;
+}
+
+void Adresse::aenderePlzAuf(int plz) 
+{
+	//plz = x;
+	//setPlz(x);
+
+	//Adresse::plz = plz;
+	this->plz = plz;
 }

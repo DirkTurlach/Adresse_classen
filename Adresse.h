@@ -6,8 +6,8 @@ private:
 	char ort[30];
 
 public:
-	/*Adresse();
-	Adresse(char*, int, char*);*/
+	Adresse();
+	Adresse(char*, int, char*);
 
 	void setStrasse (char*);
 	char* getStrasse();
@@ -17,5 +17,7 @@ public:
 
 	void setOrt (char*);
 	char* getOrt ();
+
+	void aenderePlzAuf(int);
 };
 

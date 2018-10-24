@@ -3,12 +3,12 @@ using namespace std;
 #include "Adresse.h"
 
 void main(void)
-{	/*
+{	
 	Adresse peter1("Dankwartsgrube", 23552, "Luebeck");
 
 	cout << "EK: Strasse: " << peter1.getStrasse() << endl;
 	cout << "EK: Plz: " << peter1.getPlz() << endl;
-	cout << "EK: Ort: " << peter1.getOrt() << endl << endl;*/
+	cout << "EK: Ort: " << peter1.getOrt() << endl << endl;
 
 	Adresse peter2;
 
@@ -19,6 +19,9 @@ void main(void)
 	cout << "SK: Strasse: " << peter2.getStrasse() << endl;
 	cout << "SK: Plz: " << peter2.getPlz() << endl;
 	cout << "SK: Ort: " << peter2.getOrt() << endl << endl;
+
+	peter2.aenderePlzAuf(2816);
+	cout << "Neue PLZ: " << peter2.getPlz() << endl;
 
 // Adressen auf dem Heap und dem Stack anlegen und ausgeben
 
