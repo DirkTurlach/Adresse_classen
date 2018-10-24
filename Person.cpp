@@ -2,6 +2,18 @@
 //#include "Adresse.h"
 #include <iostream>;
 
+Person::Person(void)
+{
+}
+
+Person::Person(char* vorname, char* nachname, int alter, double gehalt, Adresse adr)
+{
+	setVorname(vorname);
+	setNachname(nachname);
+	setAlter(alter);
+	setGehalt(gehalt);
+	setAdr(adr);
+}
 
 void Person::setVorname(char* xy)
 {

@@ -9,6 +9,9 @@ private:
 	Adresse adr;
 
 public:
+	Person();
+	Person(char*, char*, int, double, Adresse);
+
 	void setVorname(char*);
 	void setNachname(char*);
 	void setAlter(int);
