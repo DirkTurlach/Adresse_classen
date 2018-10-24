@@ -1,7 +1,1 @@
-﻿  Adresse.cpp
-c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(2): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
-c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
-c:\users\csl\onedrive\weiterbildung\fachinformatiker\programme\classen1s213\adressen_uebung\adresse.cpp(40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
-  adressen_uebung.vcxproj -> C:\Users\CSL\OneDrive\Weiterbildung\Fachinformatiker\Programme\classen1S213\Debug\adressen_uebung.exe
+﻿

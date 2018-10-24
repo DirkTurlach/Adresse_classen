@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Adresse.h"
+#include "Person.h"
 
 void main(void)
 {	
@@ -9,6 +9,17 @@ void main(void)
 	cout << "EK: Strasse: " << peter1.getStrasse() << endl;
 	cout << "EK: Plz: " << peter1.getPlz() << endl;
 	cout << "EK: Ort: " << peter1.getOrt() << endl << endl;
+
+	Person peter3;
+	peter3.setVorname("Peter");
+	peter3.setNachname("Heinzel");
+	peter3.setAlter(23);
+	peter3.setGehalt(3200);
+
+	cout << "SK: Vorname: " << peter3.getVorname() << endl;
+	cout << "SK: Nachname: " << peter3.getNachname() << endl;
+	cout << "SK: Alter: " << peter3.getAlter() << endl;
+	cout << "SK: Gehalt: " << peter3.getGehalt() << endl << endl;
 
 	Adresse peter2;
 
@@ -22,6 +33,8 @@ void main(void)
 
 	peter2.aenderePlzAuf(2816);
 	cout << "Neue PLZ: " << peter2.getPlz() << endl;
+
+	
 
 // Adressen auf dem Heap und dem Stack anlegen und ausgeben
 

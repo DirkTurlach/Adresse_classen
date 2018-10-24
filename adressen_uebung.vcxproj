@@ -76,9 +76,11 @@
   <ItemGroup>
     <ClCompile Include="Adresse.cpp" />
     <ClCompile Include="mainAdresse.cpp" />
+    <ClCompile Include="Person.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Adresse.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
