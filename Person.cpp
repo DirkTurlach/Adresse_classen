@@ -90,3 +90,8 @@ void Person::aenderePlz(int b)
 {
 	Person::adr.setPlz(b);
 }
+
+void Person::aendereNachname(char* c)
+{
+	Person::setNachname(c);
+}

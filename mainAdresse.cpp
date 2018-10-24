@@ -53,6 +53,9 @@ void main(void)
 	peter4.aenderePlz(12345);
 	cout << "Sorry Plz war falsch. Nun aber...: " << peter4.getAdr().getPlz() << endl;
 
+	peter4.aendereNachname("Klausewitz");
+	cout << "Peter4 heisst jetzt: " << peter4.getVorname() << "  " << peter4.getNachname() << endl;
+
 	//Adresse peter2;
 
 	//cout << "SK: Strasse: " << peter2.getStrasse() << endl;

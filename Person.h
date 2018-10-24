@@ -28,6 +28,7 @@ public:
 	void erhoeheGehaltAuf();
 	void aendereAdresse(Adresse);
 	void aenderePlz(int);
+	void aendereNachname(char*);
 	
 	Adresse getAdr();
 };
