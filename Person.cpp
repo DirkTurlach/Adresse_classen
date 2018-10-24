@@ -65,3 +65,28 @@ Adresse Person::getAdr()
 {
 	return adr;
 }
+
+void Person::hatGeburtstag()
+{
+	alter = alter + 1;
+}
+
+void Person::erhoeheGehaltUm()
+{
+	gehalt = gehalt + 200;
+}
+
+void Person::erhoeheGehaltAuf()
+{
+	gehalt = 4200;
+}
+
+void Person::aendereAdresse(Adresse a)
+{
+	setAdr(a);
+}
+
+void Person::aenderePlz(int b)
+{
+	Person::adr.setPlz(b);
+}

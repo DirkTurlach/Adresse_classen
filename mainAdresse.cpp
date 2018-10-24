@@ -35,6 +35,24 @@ void main(void)
 	cout << "Peters Strasse: " << peter4.getAdr().getStrasse() << endl;
 	cout << "Peters Postleitzahl: " << peter4.getAdr().getPlz() << endl;
 	cout << "Peters Ort: " << peter4.getAdr().getOrt() << endl;
+
+	peter4.hatGeburtstag();
+	cout << "Alter aktuell: " << peter4.getAlter() << endl << endl;
+
+	peter4.erhoeheGehaltUm();
+	cout << "Gehalt neu: " << peter4.getGehalt() << endl << endl;
+
+	peter4.erhoeheGehaltAuf();
+	cout << "Etwas mehr darf es ruhig sein. Gehalt neu: " << peter4.getGehalt() << endl << endl;
+
+	peter4.aendereAdresse(Adresse("NeueStrasse", 22222, "Bremen"));
+	cout << "Peters neue Strasse: " << peter4.getAdr().getStrasse() << endl;
+	cout << "Peters neue Postleitzahl: " << peter4.getAdr().getPlz() << endl;
+	cout << "Peters neuer Ort: " << peter4.getAdr().getOrt() << endl;
+
+	peter4.aenderePlz(12345);
+	cout << "Sorry Plz war falsch. Nun aber...: " << peter4.getAdr().getPlz() << endl;
+
 	//Adresse peter2;
 
 	//cout << "SK: Strasse: " << peter2.getStrasse() << endl;

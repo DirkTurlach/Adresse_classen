@@ -22,6 +22,13 @@ public:
 	char* getNachname();
 	int getAlter();
 	double getGehalt();
+	
+	void hatGeburtstag();
+	void erhoeheGehaltUm();
+	void erhoeheGehaltAuf();
+	void aendereAdresse(Adresse);
+	void aenderePlz(int);
+	
 	Adresse getAdr();
 };
 
