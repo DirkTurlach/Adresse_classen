@@ -20,12 +20,19 @@ void main(void)
 	cout << "SK: Nachname: " << peter3.getNachname() << endl;
 	cout << "SK: Alter: " << peter3.getAlter() << endl;
 	cout << "SK: Gehalt: " << peter3.getGehalt() << endl << endl;
+	cout << 
 
-	Adresse peter2;
-
-	peter2.setStrasse("Alb");
+	Person peter2;
+	
+	peter2.Person::Adresse.setStrasse("Alb");
 	peter2.setPlz(23611);	
 	peter2.setOrt("Luebeck");
+
+	
+	peter2.setVorname("Peter");
+	peter2.setNachname("Heinzel");
+	peter2.setAlter(23);
+	peter2.setGehalt(3200);
 
 	cout << "SK: Strasse: " << peter2.getStrasse() << endl;
 	cout << "SK: Plz: " << peter2.getPlz() << endl;

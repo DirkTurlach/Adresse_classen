@@ -23,10 +23,10 @@ void Person::setGehalt(double x)
 	gehalt = x;
 }
 
-//void Person::setAdr(Adresse a)
-//{
-//	adr = a;
-//}
+void Person::setAdr(Adresse a)
+{
+	adr = a;
+}
 
 
 char* Person::getVorname()
@@ -49,7 +49,7 @@ double Person::getGehalt()
 	return gehalt;
 }
 
-//Adresse* Person.vorname()
-//{
-//	return adr;
-//}
+Adresse Person::getAdr()
+{
+	return adr;
+}
