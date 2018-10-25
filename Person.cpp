@@ -68,7 +68,8 @@ Adresse Person::getAdr()
 
 void Person::hatGeburtstag()
 {
-	alter = alter + 1;
+	//alter = alter + 1;
+	setAlter(getAlter() + 1);			//Besseres OOP!
 }
 
 void Person::erhoeheGehaltUm()
@@ -88,10 +89,10 @@ void Person::aendereAdresse(Adresse a)
 
 void Person::aenderePlz(int b)
 {
-	Person::adr.setPlz(b);
+	adr.setPlz(b);
 }
 
 void Person::aendereNachname(char* c)
 {
-	Person::setNachname(c);
+	setNachname(c);
 }
